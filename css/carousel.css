@@ -1,7 +1,5 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -9,7 +7,7 @@ body {
   background-image: url(../imgs/fondo.png);
   background-repeat: no-repeat;
   background-size: 85% 85%;
-  background-position:bottom;
+  background-position:center;
   font-weight: bold;  
         margin: 2;
         padding: 2;
@@ -19,11 +17,34 @@ body {
 .grande {
   font-size: 50px;
   font-weight: bold;
-      
+}
+
+.contenedor{
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    right: 10px;
+}
+.texto-mapa{
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
     
 }
-    
 
+.titulos-dest{
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    color: black; 
+}
+
+.texto-dest{
+  font-size: 15px;
+}
+
+/* Padding below the footer and lighter body text */
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -72,11 +93,6 @@ body {
 .featurette-heading {
   letter-spacing: -.05rem;
 }
-
-/* rtl:end:remove */
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
