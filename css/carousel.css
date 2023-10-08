@@ -43,7 +43,7 @@ body {
 .mapa{
     
     display: flex;
-    
+    align-content: center;
 }
 
 .titulos-dest{
