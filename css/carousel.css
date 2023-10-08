@@ -28,7 +28,7 @@ body {
 
 .contenedor{
     position: absolute;
-    display: inline-block;
+    float:right;
     text-align: left;
     right: 10px;
 }
