@@ -28,7 +28,7 @@ body {
 
 .contenedor{
     position: absolute;
-    float:right;
+    display: inline-block;
     text-align: left;
     right: 10px;
 }
@@ -37,6 +37,12 @@ body {
     font-size: 50px;
     font-weight: bold;
     color: #5a5a5a;
+    display: flex;
+}
+
+.mapa{
+    
+    display: flex;
     
 }
 
