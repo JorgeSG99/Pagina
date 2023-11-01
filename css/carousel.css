@@ -5,6 +5,7 @@ body {
   padding-bottom: 3rem;
   color: #5a5a5a;
   background-image: url(../imgs/fondo.png);
+  
   background-repeat: no-repeat;
   background-size: 85% 85%;
   background-position:center;
@@ -12,6 +13,10 @@ body {
         margin: 2;
         padding: 2;
         border: 2;
+}
+
+img {
+    max-width: 100%;
 }
 
 .grande {
@@ -24,6 +29,13 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: #5a5a5a;
+}
+
+.txtcontent {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
 }
 
 .contenedor{
@@ -40,13 +52,6 @@ body {
     display: flex;
 }
 
-.flexible{
-    
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
 .titulos-dest{
     position: relative;
     font-size: 50px;
@@ -56,6 +61,18 @@ body {
 
 .texto-dest{
   font-size: 15px;
+}
+
+
+.contenido{
+
+  margin-top: 10px;
+  margin-right: 90px;
+  margin-bottom: 10px;
+  margin-left: 90px;
+  text-align: justify;
+    
+    
 }
 
 /* Padding below the footer and lighter body text */
